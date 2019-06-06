@@ -1,0 +1,108 @@
+/*Your header and footer must match across the pages, so store their styles in an external file called restaurantStyles.css.*/
+
+header {
+    border-bottom: 1px solid #000000;
+}
+
+.pageTitle {
+    float: left;
+}
+
+.pageSection {
+    border-bottom: 1px solid #cccccc;
+}
+
+.pageCircle {
+    float: right;
+}
+
+.name {
+    text-align: center;
+    /*Style the restaurant name with a hosted or embedded font*/
+    font-family: 'Ruge Boogie', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    padding: 5px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+li {
+    float: left;
+    margin-right: 15px;
+}
+
+nav {
+    margin: 0px;
+    border-top: 1px solid #000000;
+    padding: 7px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 7px;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #000000;
+    /* position: fixed;
+    left: 0;
+    bottom: 0; */
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer p {
+    padding: 5px;
+    margin: 0px;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.blueDot {
+    border: 1px solid aqua;
+}
+
+.current {
+    padding: 0px;
+    margin: 0px;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    /* Visited links appear in a different color than their default state. */
+    color: #993333;
+}
+
+a:hover {
+    /* When you hover over a link, the text is bold. This should only be when hovering. Otherwise, the text should be the normal thickness. */
+    font-weight: bold;
+}
+
+a:active {
+    /* Active links should not be underlined. */
+    text-decoration: none;
+}
+
+h5 {
+    text-align: center;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Style the restaurant name with a hosted or embedded font-->
+    <link href="https://fonts.googleapis.com/css?family=Ruge+Boogie|Shadows+Into+Light&display=swap" rel="stylesheet">
+
+
+    <!-- open-iconic-bootstrap (icon set for bootstrap) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+
+    <!--External Stylesheet for header/footer cohesiveness-->
+    <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+
+    <style>
+        /*Apply all styles for the menu and contact form in internal style sheets*/
+        
+        .main {
+            /*Give the menu background a color other than white*/
+            background-color: #993333;
+            color: #000000;
+            padding: 25px;
+        }
+        
+        table {
+            /* Style this table to match your site's look and feel */
+            text-align: left;
+            margin: 0 auto;
+            border: 2px solid #000000;
+            width: 100%;
+        }
+        
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        
+        .center {
+            text-align: center;
+        }
+    </style>
+    <title> Cafe Favorite </title>
+</head>
+
+<body>
+    <!-- The site and pages must be laid out to match the wireframes below. 
+        (Note: The elements do not need to be centered but there does need to be a logical and cohesive arrangement of the required information in each wireframe on your pages.) -->
+    <div class="container">
+        <!-- Make the site responsive using Bootstrap's grid system. -->
+        <header>
+            <div class="pageSection">
+                <div class="pageTitle">
+                    <p class="current">Menu</p>
+                </div>
+
+                <div class="pageCircle">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot blueDot"></span>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="jumbotron">
+                <!-- Use a jumbotron or page header to call out big news - your restaurant is opening a new location-->
+                <h1>Cafe Favorite is opening a new location in Dallas, Tx soon!</h1>
+            </div>
+
+            <div class="name">
+                <h1>Cafe Favorite</h1>
+            </div>
+
+
+            <nav>
+
+                <ul>
+                    <!--Style the site navigation so that you are using either tabs or pills.-->
+                    <li>
+                        <!-- Change the Home link to use an Icon from one of the supported fonts that looks like a house. -->
+                        <a class="btn badge-pill" href="homePage.html"><span class="oi oi-home"></span></a>
+                    </li>
+                    <li><a class="btn badge-pill" href="menu.html">Menu</a></li>
+                    <li><a class="btn badge-pill" href="contactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <!-- Add a Carousel that rotates with three pieces of information -->
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h5>We're opening a new location!</h5>
+                </div>
+                <div class="carousel-item">
+                    <h5>We're rolling out our seasonal menu, with special options for this season!</h5>
+                </div>
+                <div class="carousel-item">
+                    <h5>The Drink of the Month is SG Special Brew!</h5>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="row">
+
+                <!--Make sure that the menu item names are larger than their descriptions.-->
+                <!-- The menu items should stack well, with no overlapping. -->
+                <div class="item col-sm-4 center">
+                    <h3>Burger and Fries</h3>
+                    <p>An American Classic! <br> Your choice - with or without cheese <br> Pickle, onion, tomato and lettuce <br> Served with our famous thick cut french fries<br>7.95</p>
+                </div>
+
+                <div class="item col-sm-4 center">
+                    <h3>Hot Dog and Chips</h3>
+                    <p>A Summer Classic! <br> Your choice - white or wheat bun <br> Relish, mustard, and ketchup <br> Served with our house-made chips<br>$7.95</p>
+                </div>
+
+                <div class="item col-sm-4 center">
+                    <h3>Italian Sausage and Pepper</h3>
+                    <p>An All-Time Favorite! <br> Your choice - mild or spicy Cole Slaw <br> Served with garlic mashers<br>$10.95</p>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="item col-sm center">
+                    <h3>Tenderloin Sandwich and Chips</h3>
+                    <p>Really Hits the Spot! <br> Plain or Sesame Seed Bun <br> Pickle, onion, tomato, and lettuce <br> Served with our house-made chips<br>$8.95</p>
+                </div>
+
+                <div class="item col-sm center">
+                    <h3>House Salad</h3>
+                    <p>On the Lighter Side <br> Your choice - with or without cheese <br> Iceberg lettuce, tomatoes, peppers <br>Thousand Island or Ranch Dressing<br> Served with a dinner roll<br>$6.95</p>
+                </div>
+
+                <div class="item col-sm center">
+                    <h3>Brisket Sandwich and Fries</h3>
+                    <p>A Taste of Texas! <br> Smoked Brisket on thick-cut <br> Texas Toast <br>Cole Slaw <br>Served with famous thick-cut french fries <br>$7.95</p>
+                </div>
+            </div>
+            <br>
+
+            <div class="table-responsive">
+                <table class="table">
+                    <!-- Add a section to the menu for beverages, with a table like the one below. -->
+                    <thead>
+                        <tr>
+                            <th colspan="2">Beverages</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Root Beer</td>
+                            <td>$3.00</td>
+                        </tr>
+                        <tr>
+                            <td>Bottled Water</td>
+                            <td>$1.25</td>
+                        </tr>
+                        <tr>
+                            <td>Lemonade</td>
+                            <td>$1.00</td>
+                        </tr>
+                        <tr>
+                            <td>Iced Tea</td>
+                            <td>$1.25</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+
+
+        <footer>
+            <div class="address ">
+                <p>5678 Bourbon St New Orleans, La 70112</p>
+            </div>
+            <div class="phone ">
+                <p>(504)-555-5555</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
+    <!-- Make sure that users who have JavaScript disabled know that this site is best viewed with JavaScript enabled -->
+    <noscript>This site is best viewed with JavaScript enabled!</noscript>
+</body>
+
+</html>
